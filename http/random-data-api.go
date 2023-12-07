@@ -13,8 +13,6 @@ var apiUser string = "https://random-data-api.com/api/v2/users?response_type=jso
 var apiAddress string = "https://random-data-api.com/api/v2/addresses?response_type=json"
 var apiAppliance string = "https://random-data-api.com/api/v2/appliances?response_type=json"
 var urls []string = []string{apiUser, apiAddress, apiAppliance}
-
-type jsonData interface {}
   
 func main() {
 	rand.Seed(time.Now().UnixNano())
