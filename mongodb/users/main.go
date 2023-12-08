@@ -52,7 +52,6 @@ func addUsersToDb(mCollection *mongo.Collection, users []User) (res *mongo.Inser
 	if err != nil { return }
 
 	fmt.Printf("Inserted %v document(s)!\n", len(res.InsertedIDs))
-
 	return
 }
 

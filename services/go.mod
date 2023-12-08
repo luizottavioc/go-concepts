@@ -1,3 +1,3 @@
-// module localhost.com/go-concepts-services
+module localhost.com/go-concepts-services
 
-// go 1.18
+go 1.18
