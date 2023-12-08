@@ -12,6 +12,10 @@ This repository houses a collection of Go projects and code snippets that I've d
 - <a href="./mongodb/hello-world/main.go">hello-world</a>
 - <a href="./mongodb/users/main.go">users</a>
 
+## Services
+<a href="./services/">Folder</a>
+- <a href="./mongodb/auto-import-users/main.go">auto-import-users</a>
+
 ## Http
 <a href="./http/">Folder</a>
 - <a href="./http/cat-api.go">cat-api.go</a>
