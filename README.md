@@ -3,7 +3,7 @@ This repository houses a collection of Go projects and code snippets that I've d
 
 ## Services
 <a href="./services/">Folder</a> with services that run complete flows.
-- <a href="./mongodb/auto-import-users/main.go">auto-import-users</a>: Service that reads, from time to time, an API that returns random users in a random quantity. After reading user data, it is incremented to a .json file in the ```./files``` folder. With this data saved in the file, after a specific number of increments in the file, it is read, deleted and saved in a MongoDB database (accessible through <a href="./docker-compose.yaml">docker-compose.yaml</a> from the root). Reading and writing to the file is controlled using an auxiliary variable that blocks writing during reading so that deletion does not result in data loss.
+- <a href="./services/auto-import-users/main.go">auto-import-users</a>: Service that reads, from time to time, an API that returns random users in a random quantity. After reading user data, it is incremented to a .json file in the ```./files``` folder. With this data saved in the file, after a specific number of increments in the file, it is read, deleted and saved in a MongoDB database (accessible through <a href="./docker-compose.yaml">docker-compose.yaml</a> from the root). Reading and writing to the file is controlled using an auxiliary variable that blocks writing during reading so that deletion does not result in data loss.
   
 ## MongoDB
 <a href="./mongodb/">Folder</a> with scripts for manipulating MongoDB. Is accessible by <a href="./docker-compose.yaml">docker-compose.yaml</a> from the project root
